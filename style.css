@@ -1,1 +1,34 @@
 /* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  padding: 35vh 35vw;
+}
+
+.box {
+  height: 30vh;
+  width: 30vw;
+  background-color: hsla(0, 50%, 100%, 0.5);
+}
+
+.box-title {
+  display: inline-block;
+  text-align: center;
+  width: 20vw;
+  margin: 1vh 5vw;
+}
+
+.box-content {
+  text-align: center;
+  margin: 1vh 1vw;
+}
